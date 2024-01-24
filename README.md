@@ -1,9 +1,14 @@
 # SuprimentosOKI
 
-verificador de suprimentos OKI
+OKI Supplies Checker
 
-Atraves de Webscraping é extraido informações do painel de visualização de suprimentos da OKI, onde é verificado se o valor de cada um é menor ou igual a 20 (valor pré estabelicido para troca)
+Through web scraping, information is extracted from the OKI supplies monitoring panel. The script checks whether the value of each supply is equal to or less than 20 (pre-established value for replacement).
 
-após isso é criado/atualizado um arquivo .txt onde apenas as informações revelantes são colocadas (nome/local , modelo, quais suprimentos tem necessidade de troca )
+Afterwards, a .txt file is created/updated, containing only relevant information such as name/location, model, and details of supplies that need replacement.
 
-OBS: Para funcionamento da interação com navegador é necessario que chromedriver.exe esteja no mesmo diretorio do arquivo. OBS2: chromedriver atende exclusivamente uma versão do google chrome, caso seja necessario baixar versão de acordo com seu navegador no site: https://chromedriver.chromium.org/downloads
+Note: For the browser interaction to work, chromedriver.exe needs to be in the same directory as the file. Note 2: Chromedriver exclusively supports a specific version of Google Chrome. If needed, you can download a version compatible with your browser from the site: https://chromedriver.chromium.org/downloads
+
+
+
+
+
